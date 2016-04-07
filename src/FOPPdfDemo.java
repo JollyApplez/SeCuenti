@@ -52,7 +52,8 @@ public class FOPPdfDemo {
         FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
         // Setup output
         OutputStream out;
-        out = new java.io.FileOutputStream("C:\\Temp\\employee.pdf");
+        out = new java.io.FileOutputStream("C:\\Users\\Christoffer\\Desktop\\employee.pdf");
+        
     
         try {
             // Construct fop with desired output format
@@ -96,7 +97,7 @@ public class FOPPdfDemo {
         // Setup output
         OutputStream out;
         
-        out = new java.io.FileOutputStream("C:\\Temp\\temp.fo");
+        out = new java.io.FileOutputStream("C:\\Users\\Christoffer\\workspace\\SeCuenti\\Resources\\temp.fo");
     
         try {
             // Setup XSLT
