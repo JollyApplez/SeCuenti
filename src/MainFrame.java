@@ -71,7 +71,6 @@ public class MainFrame {
 		btnBlddra.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				final JFileChooser fc = new JFileChooser ();
-				int response = fc.showOpenDialog(OpenFile.this);
 			}
 		});
 		btnBlddra.setBounds(335, 71, 89, 23);
